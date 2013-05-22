@@ -30,6 +30,7 @@
 {
     [super viewDidLoad];
 	self.title = @"Scary Bugs";
+    NSLog(@"Welcome");
 }
 
 - (void)viewDidUnload
