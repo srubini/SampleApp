@@ -30,11 +30,8 @@
 {
     [super viewDidLoad];
 	self.title = @"Scary Bugs";
-<<<<<<< HEAD
     NSLog(@"Welcome");
     NSLog(@"Welcome1");
-=======
->>>>>>> parent of 1fb023d... Master view committed.
 }
 
 - (void)viewDidUnload
