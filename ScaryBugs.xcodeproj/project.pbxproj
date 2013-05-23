@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		319AC1E5174E1176003DF67F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 319AC1E4174E1176003DF67F /* Default-568h@2x.png */; };
+		319AC1E9174E11BC003DF67F /* EntityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 319AC1E8174E11BC003DF67F /* EntityModel.m */; };
 		355AFC3214EDC87200031A10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355AFC3114EDC87200031A10 /* UIKit.framework */; };
 		355AFC3414EDC87200031A10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355AFC3314EDC87200031A10 /* Foundation.framework */; };
 		355AFC3614EDC87200031A10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355AFC3514EDC87200031A10 /* CoreGraphics.framework */; };
@@ -30,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		319AC1E4174E1176003DF67F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		319AC1E7174E11BC003DF67F /* EntityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityModel.h; sourceTree = "<group>"; };
+		319AC1E8174E11BC003DF67F /* EntityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityModel.m; sourceTree = "<group>"; };
 		355AFC2D14EDC87200031A10 /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		355AFC3114EDC87200031A10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		355AFC3314EDC87200031A10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +82,7 @@
 		355AFC2214EDC87100031A10 = {
 			isa = PBXGroup;
 			children = (
+				319AC1E4174E1176003DF67F /* Default-568h@2x.png */,
 				355AFC3714EDC87200031A10 /* ScaryBugs */,
 				355AFC3014EDC87200031A10 /* Frameworks */,
 				355AFC2E14EDC87200031A10 /* Products */,
@@ -131,6 +137,8 @@
 				355AFC4314EDC87200031A10 /* MainStoryboard.storyboard */,
 				355AFC4614EDC87200031A10 /* MasterViewController.h */,
 				355AFC4714EDC87200031A10 /* MasterViewController.m */,
+				319AC1E7174E11BC003DF67F /* EntityModel.h */,
+				319AC1E8174E11BC003DF67F /* EntityModel.m */,
 				355AFC4914EDC87200031A10 /* DetailViewController.h */,
 				355AFC4A14EDC87200031A10 /* DetailViewController.m */,
 			);
@@ -225,6 +233,7 @@
 				355AFC6914EDD36E00031A10 /* potatoBugThumb.jpg in Resources */,
 				355AFC6A14EDD36E00031A10 /* wolfSpider.jpg in Resources */,
 				355AFC6B14EDD36E00031A10 /* wolfSpiderThumb.jpg in Resources */,
+				319AC1E5174E1176003DF67F /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 				355AFC4B14EDC87200031A10 /* DetailViewController.m in Sources */,
 				355AFC5514EDCBE300031A10 /* ScaryBugData.m in Sources */,
 				355AFC5814EDCDBE00031A10 /* ScaryBugDoc.m in Sources */,
+				319AC1E9174E11BC003DF67F /* EntityModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +362,7 @@
 				355AFC5014EDC87200031A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
