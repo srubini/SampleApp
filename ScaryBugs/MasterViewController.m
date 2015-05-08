@@ -30,8 +30,8 @@
 {
     [super viewDidLoad];
 	self.title = @"Scary Bugs";
-    NSLog(@"Welcome");
-    NSLog(@"Welcome1");
+    NSLog(@"Welcome from App2");
+    NSLog(@"Welcome from App2, Conflict Analysis Resolved!!!");
 }
 
 - (void)viewDidUnload
