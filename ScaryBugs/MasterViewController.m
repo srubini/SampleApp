@@ -34,6 +34,7 @@
     NSLog(@"Welcome from App2, Conflict Analysis Resolved!!!");
     NSLog(@"Welcome from App1");
     NSLog(@"Welcome from App1, Conflict Analysis");
+    NSLog(@"Welcome to GitHub");
 }
 
 - (void)viewDidUnload
