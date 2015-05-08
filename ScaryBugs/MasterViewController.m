@@ -32,6 +32,8 @@
 	self.title = @"Scary Bugs";
     NSLog(@"Welcome from App2");
     NSLog(@"Welcome from App2, Conflict Analysis Resolved!!!");
+    NSLog(@"Welcome from App1");
+    NSLog(@"Welcome from App1, Conflict Analysis");
 }
 
 - (void)viewDidUnload
